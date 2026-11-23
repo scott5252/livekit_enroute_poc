@@ -1,0 +1,197 @@
+[
+  {
+    "visit_id": "visit-1001",
+
+    "patient_name": "Joe Smith",
+    "age": 86,
+    "sex": "Male",
+    "patient_address": "222 Main str., Denver, CO",
+
+    "patient_language": "English",
+    "non_verbal_patient": false,
+    "gender_identity": "Male",
+    "sexual_orientation": "Not provided",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "date_of_admission": "2026-11-07",
+    "additional_patient_contacts": [
+      {
+        "name": "Jane Smith",
+        "relationship": "Spouse",
+        "phone": "(555) 555-0123"
+      }
+    ],
+
+    "visit_reason": "COPD Exacerbation with PNA",
+    "visit_status": "Scheduled/En-route",
+    "featured_note": "Gate code is #4123. Park in driveway; do not block neighbor's access.",
+    "home_access": "Single-family home, 5 steps at the entrance, 1 dog",
+    "precautions": "COVID-19",
+
+    "orders_and_activities": [
+      {
+        "activity": "IV Antibiotic Administration (Ceftriaxone 1g)",
+        "ordering_provider": "Dr. Emily Chen, MD"
+      },
+      {
+        "activity": "Respiratory Assessment & Nebulizer Treatment",
+        "ordering_provider": "Dr. Emily Chen, MD"
+      }
+    ],
+
+    "nursing_instructions": "Check SpO2 prior to and after nebulizer treatment. Auscultate lung sounds bilaterally. Ensure oxygen concentrator is set to 2L/min.",
+
+    "schedule_start_time": "4:45 PM EDT",
+    "estimated_visit_duration": "30m",
+
+    "care_team": [
+      {
+        "name": "Sara Smith",
+        "role": "Nurse Practitioner"
+      }
+    ],
+
+    "customer_sponsor": {
+      "name": "Boston HAC Customer",
+      "phone": "(833) 333-3333"
+    },
+
+    "sponsor": "BMC",
+
+    "epic": null
+  },
+  {
+    "visit_id": "visit-1002",
+
+    "patient_name": "Margaret Ellis",
+    "age": 78,
+    "sex": "Female",
+    "patient_address": "Not provided",
+
+    "patient_language": "English",
+    "non_verbal_patient": false,
+    "gender_identity": "Female",
+    "sexual_orientation": "Not provided",
+    "race": "Not provided",
+    "ethnicity": "Not provided",
+    "date_of_admission": "Not provided",
+    "additional_patient_contacts": [],
+
+    "visit_reason": "Cellulitis of the left lower leg",
+    "visit_status": "Scheduled",
+    "featured_note": "A courier is delivering the vancomycin to the home by 9:30 AM. Confirm it arrived.",
+    "home_access": "Single-family home, 3 steps at the front entrance, street parking, 2 cats",
+    "precautions": "Contact",
+
+    "orders_and_activities": [
+      {
+        "activity": "Routine hospital-at-home visit",
+        "ordering_provider": "Dr. Priya Raman"
+      },
+      {
+        "activity": "IV vancomycin 1.25 grams",
+        "ordering_provider": "Dr. Priya Raman"
+      },
+      {
+        "activity": "Blood draw for CBC, basic metabolic panel, and vancomycin trough",
+        "ordering_provider": "Dr. Priya Raman"
+      },
+      {
+        "activity": "Narcotic count",
+        "ordering_provider": "Rachel Kim"
+      }
+    ],
+
+    "nursing_instructions": "Complete the assessment and vitals. Draw labs before starting vancomycin. Infuse vancomycin over 90 minutes. Mark and measure the wound borders. Then do the narcotic count and ambient temperature check.",
+
+    "schedule_start_time": "10:15 AM Eastern",
+    "estimated_visit_duration": "1 hour 30 minutes",
+
+    "care_team": [
+      {
+        "name": "Kevin Ortiz",
+        "role": "Not provided"
+      }
+    ],
+
+    "customer_sponsor": {
+      "name": "Northeast Hospital at Home",
+      "phone": "Not provided"
+    },
+
+    "sponsor": "Riverside Medical Center",
+
+    "epic": {
+      "allergies": [
+        {
+          "substance": "Penicillin",
+          "clinical_status": "active",
+          "criticality": "high",
+          "reactions": ["Hives"]
+        },
+        {
+          "substance": "Sulfa drugs",
+          "clinical_status": "active",
+          "criticality": "low",
+          "reactions": ["Rash"]
+        }
+      ],
+      "conditions": [
+        { "name": "Type 2 diabetes", "clinical_status": "active", "onset": null },
+        { "name": "Hypertension", "clinical_status": "active", "onset": null },
+        {
+          "name": "Chronic kidney disease stage 3",
+          "clinical_status": "active",
+          "onset": null
+        }
+      ],
+      "vitals": [
+        {
+          "name": "Blood pressure",
+          "value": "138/82 mmHg",
+          "recorded_at": "November 5, 6:40 PM"
+        },
+        {
+          "name": "Heart rate",
+          "value": "88 beats per minute",
+          "recorded_at": "November 5, 6:40 PM"
+        },
+        {
+          "name": "Respiratory rate",
+          "value": "18 breaths per minute",
+          "recorded_at": "November 5, 6:40 PM"
+        },
+        {
+          "name": "Temperature",
+          "value": "100.1 degrees Fahrenheit",
+          "recorded_at": "November 5, 6:40 PM"
+        },
+        {
+          "name": "Oxygen saturation (SpO2)",
+          "value": "95 percent",
+          "recorded_at": "November 5, 6:40 PM"
+        }
+      ],
+      "medications": [
+        { "name": "Placeholder medication 1", "status": "active" },
+        { "name": "Placeholder medication 2", "status": "active" },
+        { "name": "Placeholder medication 3", "status": "active" },
+        { "name": "Placeholder medication 4", "status": "active" },
+        { "name": "Placeholder medication 5", "status": "active" },
+        { "name": "Placeholder medication 6", "status": "active" },
+        { "name": "Placeholder medication 7", "status": "active" },
+        { "name": "Placeholder medication 8", "status": "active" },
+        { "name": "Placeholder medication 9", "status": "active" },
+        { "name": "Placeholder medication 10", "status": "active" },
+        { "name": "Placeholder medication 11", "status": "active" }
+      ],
+      "labs": null,
+      "notes": {
+        "hpi_summary": null,
+        "hpi_date": null,
+        "precautions": "Contact isolation for MRSA.",
+        "h_and_p": null
+      }
+    }
+  }
+]

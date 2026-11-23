@@ -1,0 +1,28 @@
+main {
+  max-width: 24rem;
+  margin: 4rem auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+button {
+  font: inherit;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+button.primary {
+  background: #1f5fbf;
+}
+
+button.danger {
+  background: #c62828;
+}
+
+.error {
+  color: #c62828;
+}
